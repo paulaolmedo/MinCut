@@ -108,7 +108,8 @@ public class UndirectedGraph<T> extends Graph<T>
           if (copy.countEdges()<minCut) {
               minCut = copy.countEdges();
           }
-       }
+
+        }
         catch(CloneNotSupportedException e){
           System.out.println("Error: " + e.getLocalizedMessage());
       }

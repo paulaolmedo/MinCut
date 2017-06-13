@@ -23,7 +23,7 @@ public class MinCut {
         file = new File("graph.txt");
     }
     public MinCut(String fileName){
-        uGraph = new UndirectedGraph();
+        uGraph = new UndirectedGraph(true);
         file = new File(fileName);
     }
     
